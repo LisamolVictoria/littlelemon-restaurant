@@ -1,5 +1,5 @@
 import React from "react";
-import LittleLemonLogo from '../assets/Logo.svg';
+import LittleLemon from '../assets/LLFood.jpg';
 import { Link } from "react-router-dom";
 
 
@@ -14,7 +14,7 @@ const Header = () => {
             <Link to="/Booking"><button aria-label="On Click">Reserve Table</button></Link>
             </div>
             <div>
-                <img src={LittleLemonLogo} />
+                <img src={LittleLemon} />
             </div>
             </section>
         </header>
