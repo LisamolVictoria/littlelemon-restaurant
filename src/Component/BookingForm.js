@@ -23,7 +23,7 @@ const BookingForm = (props) => {
   return (
     <header>
       <section>
-        <form onSubmit={handleSumbit}>
+        <form onSubmit={handleSumbit} className="seatBooking">
           <fieldset>
             <div>
               <label htmlFor="book-date">Choose Date</label>
